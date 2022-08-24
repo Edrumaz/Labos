@@ -1,0 +1,28 @@
+    1  su - 
+    2  sudo su
+    3  cp -r ./~/Escritorio/cd
+    4  cp -r ./ ~/Escritorio/cd
+    5  cd ~/Escritorio
+    6  cd cd
+    7  sudo chmod +x autorun.sh 
+    8  ./autorun.sh
+    9  GPG --list-secret-keys
+   10  gpg --list-secret-keys
+   11  gpg --output ruben.gpg --export 00090216@uca.edu.sv
+   12  gpg --armor --export 00090216@uca.edu.sv
+   13  gpg --export-secret-keys --armor 00090216@uca.edu.sv > ./my-priv-gpg-key.asc
+   14  touch miguel.gpg
+   15  nano miguel.gpg 
+   16  fg
+   17  nano miguel.gpg 
+   18  ls
+   19  gpg --import miguel.gpg 
+   20  gpg --list-keys
+   21  gpg --edit-key 00087518@uca.edu.sv
+   22  touch nextor.gpg
+   23  nano nextor.gpg 
+   24  gpg --import nextor.gpg 
+   25  gpg --list-keys
+   26  gpg --edit-key naldana@uca.edu.sv
+   27  gpg --list-keys
+   28  history > history.txt
